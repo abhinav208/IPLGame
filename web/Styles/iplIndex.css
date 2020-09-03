@@ -1,0 +1,117 @@
+/* 
+    Document   : index_page
+    Created on : 20 Apr, 2020, 9:39:44 PM
+    Author     : abhinav
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.column2-div {
+    height: 100%;
+    width: 40%;
+    float: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.column2-main-div {
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0,0,0,1) !important;
+    border-radius: 30px !important;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.column2-head-div{
+    height: 10%;
+    margin-bottom: 0;
+    background-color: rgba(1,0,0,0);
+    border-bottom: 1px solid #F44336;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px; 
+}
+
+.column2-body-div{
+    height: 75%;
+    width: 100%; 
+}
+
+.column2-bottom-div {
+    height: 15%;
+    width: 100%;
+    display: flex!important;
+    justify-content: center!important;
+    border-top: 1px solid #F44336;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.h3-column2 {
+    color: white;
+    font-size: 1.75rem;
+    padding-top: 2%;
+    padding-left: 10%;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.span-column2 {
+    color: white;
+    font-size: 1rem;
+    padding-top: 2%;
+    text-align: center;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.login_table_label
+{
+    color: white;
+    font:1em Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.login_text_box
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #5882FA; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.login_button {border-radius: 8px;}
+
+.login_button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

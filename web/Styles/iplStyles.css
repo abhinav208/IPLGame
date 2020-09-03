@@ -1,0 +1,130 @@
+/* 
+    Document   : iplStyles
+    Created on : 21 Apr, 2020, 3:29:36 PM
+    Author     : abhin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.container {
+    padding: 25px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+.login_table_head
+{
+    font: 1.2em Verdana, Geneva, sans-serif;
+    color: #820D00;
+}
+
+#bidTable, #bidTable2, #adminTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+}
+
+#bidTable td, #bidTable th, #bidTable2 td, #bidTable2 th, #adminTable td, #adminTable th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#bidTable tr:nth-child(even){background-color: #f2f2f2}
+
+#bidTable tr:hover {background-color: #ddd;}
+
+#bidTable2 tr:nth-child(even){background-color: #f2f2f2}
+
+#bidTable2 tr:hover {background-color: #ddd;}
+
+#bidTable th, #bidTable2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#adminTable tr:nth-child(even){background-color: #f2f2f2}
+
+#adminTable tr:hover {background-color: #ddd;}
+
+#adminTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #2DA1F7;
+    color: black;
+}
+
+#adminCreateTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f2;
+    
+}
+
+#adminCreateTable td, #adminCreateTable th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#adminCreateTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #2DA1F7;
+    color: black;
+}
+
+
+.multiselect {
+  width: 250px;
+}
+
+.checkboxes {
+  border: 1px #dadada solid;
+  max-height: 140px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.checkboxes label {
+  display: block;
+}
+
+.checkboxes label:hover {
+  background-color: #1e90ff;
+}
